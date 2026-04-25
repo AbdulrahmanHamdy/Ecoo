@@ -1,0 +1,66 @@
+@model IEnumerable<ECOO.Application.ViewModels.ProductViewModel>
+@{
+    ViewData["Title"] = "Shop";
+    var categories    = ViewBag.Categories as IEnumerable<ECOO.Application.ViewModels.CategoryViewModel> ?? Enumerable.Empty<ECOO.Application.ViewModels.CategoryViewModel>();
+    var currentSearch = ViewBag.Search     as string ?? string.Empty;
+    var currentCat    = ViewBag.CategoryId as int?;
+}
+
+<!-- ── Hero banner ───────────────────────────────────────────────── -->
+<section class="eco-hero mb-5">
+    <div class="eco-hero-inner text-center py-5 px-3">
+        <h1 class="eco-hero-title">Shop with the Planet in Mind</h1>
+        <p class="eco-hero-sub">Handpicked eco-friendly products — good for you, great for Earth.</p>
+
+        <!-- Search form -->
+        <form asp-controller="Home" asp-action="Index" method="get" class="mt-4 d-flex justify-content-center gap-2 flex-wrap">
+            <input type="text" name="search" value="@currentSearch"
+                   class="form-control eco-search-input"
+                   placeholder="Search products…"
+                   style="max-width:340px" />
+            <button type="submit" class="btn eco-btn-primary px-4">
+                <i class="bi bi-search me-1"></i>Search
+            </button>
+            @if (!string.IsNullOrEmpty(currentSearch) || currentCat.HasValue)
+            {
+                <a asp-controller="Home" asp-action="Index" class="btn eco-btn-outline px-4">
+                    <i class="bi bi-x me-1"></i>Clear
+                </a>
+            }
+        </form>
+    </div>
+</section>
+
+<!-- ── Category filter pills ─────────────────────────────────────── -->
+<div class="d-flex flex-wrap gap-2 mb-4 justify-content-center">
+    <a asp-controller="Home" asp-action="Index"
+       class="btn btn-sm @(currentCat == null && string.IsNullOrEmpty(currentSearch) ? "eco-pill-active" : "eco-pill")">
+        All
+    </a>
+    @foreach (var cat in categories)
+    {
+        <a asp-controller="Home" asp-action="Index" asp-route-categoryId="@cat.Id"
+           class="btn btn-sm @(currentCat == cat.Id ? "eco-pill-active" : "eco-pill")">
+            @cat.Name
+        </a>
+    }
+</div>
+
+<!-- ── Product grid ──────────────────────────────────────────────── -->
+@if (!Model.Any())
+{
+    <div class="text-center py-5 text-muted">
+        <i class="bi bi-search fs-1 d-block mb-3"></i>
+        <h5>No products found.</h5>
+        <a asp-controller="Home" asp-action="Index" class="btn eco-btn-outline mt-3">Browse all products</a>
+    </div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4">
+        @foreach (var product in Model)
+        {
+            @await Html.PartialAsync("_ProductCard", product)
+        }
+    </div>
+}

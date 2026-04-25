@@ -1,0 +1,77 @@
+@model ECOO.Application.ViewModels.CheckoutViewModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<h2 class="eco-page-title mb-4"><i class="bi bi-credit-card me-2"></i>Checkout</h2>
+
+<div class="row g-4">
+
+    <!-- Checkout form -->
+    <div class="col-lg-7">
+        <div class="eco-form-card">
+            <h5 class="mb-4">Shipping Information</h5>
+
+            <form asp-action="Checkout" method="post" novalidate>
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label asp-for="CustomerName" class="form-label eco-label"></label>
+                    <input asp-for="CustomerName" class="form-control eco-input" placeholder="Jane Smith" />
+                    <span asp-validation-for="CustomerName" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CustomerEmail" class="form-label eco-label"></label>
+                    <input asp-for="CustomerEmail" class="form-control eco-input" placeholder="jane@example.com" />
+                    <span asp-validation-for="CustomerEmail" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="ShippingAddress" class="form-label eco-label"></label>
+                    <textarea asp-for="ShippingAddress" class="form-control eco-input" rows="3"
+                              placeholder="123 Green Street, Eco City, Earth"></textarea>
+                    <span asp-validation-for="ShippingAddress" class="text-danger small"></span>
+                </div>
+
+                <button type="submit" class="btn eco-btn-primary w-100 py-2">
+                    <i class="bi bi-check-circle me-2"></i>Place Order — $@Model.Cart.Total.ToString("F2")
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Cart summary (read-only) -->
+    <div class="col-lg-5">
+        <div class="eco-summary-card p-4">
+            <h5 class="mb-3">Your Order</h5>
+
+            @foreach (var item in Model.Cart.Items)
+            {
+                <div class="d-flex justify-content-between align-items-center mb-2 small">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "/images/placeholder.jpg" : item.ImageUrl)"
+                             alt="@item.Name" class="rounded-1"
+                             style="width:36px;height:36px;object-fit:cover"
+                             onerror="this.src='/images/placeholder.jpg'" />
+                        <span>@item.Name <span class="text-muted">×@item.Quantity</span></span>
+                    </div>
+                    <span class="fw-semibold">$@item.LineTotal.ToString("F2")</span>
+                </div>
+            }
+
+            <hr />
+            <div class="d-flex justify-content-between fw-bold">
+                <span>Total</span>
+                <span class="eco-price">$@Model.Cart.Total.ToString("F2")</span>
+            </div>
+            <div class="text-muted small mt-2 text-center">
+                <i class="bi bi-truck me-1 text-success"></i>Free eco-friendly shipping included 🌱
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

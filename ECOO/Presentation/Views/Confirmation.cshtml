@@ -1,0 +1,57 @@
+@model ECOO.Application.ViewModels.OrderViewModel
+@{
+    ViewData["Title"] = "Order Confirmed";
+}
+
+<div class="text-center py-4 mb-4">
+    <div class="eco-confirm-icon mb-3">✅</div>
+    <h1 class="eco-page-title">Thank you, @Model.CustomerName!</h1>
+    <p class="text-muted">Your order <strong>#@Model.Id</strong> was placed on @Model.OrderDate.ToString("MMMM dd, yyyy 'at' HH:mm") UTC.</p>
+    <p class="text-muted small">A confirmation will be sent to <strong>@Model.CustomerEmail</strong>.</p>
+</div>
+
+<div class="row g-4 justify-content-center">
+    <div class="col-lg-7">
+
+        <!-- Items summary -->
+        <div class="eco-form-card mb-3">
+            <h5 class="mb-3">Items Ordered</h5>
+            @foreach (var item in Model.Items)
+            {
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="@(string.IsNullOrEmpty(item.ProductImageUrl) ? "/images/placeholder.jpg" : item.ProductImageUrl)"
+                             alt="@item.ProductName" class="rounded-2"
+                             style="width:48px;height:48px;object-fit:cover"
+                             onerror="this.src='/images/placeholder.jpg'" />
+                        <div>
+                            <div class="fw-semibold">@item.ProductName</div>
+                            <div class="text-muted small">Qty: @item.Quantity × $@item.Price.ToString("F2")</div>
+                        </div>
+                    </div>
+                    <span class="fw-bold">$@item.LineTotal.ToString("F2")</span>
+                </div>
+            }
+            <hr />
+            <div class="d-flex justify-content-between fw-bold fs-5">
+                <span>Total Paid</span>
+                <span class="eco-price">$@Model.TotalAmount.ToString("F2")</span>
+            </div>
+        </div>
+
+        <!-- Shipping info -->
+        <div class="eco-form-card">
+            <h5 class="mb-3">Shipping To</h5>
+            <p class="mb-0 text-muted">@Model.ShippingAddress</p>
+        </div>
+
+        <div class="d-flex gap-3 mt-4 justify-content-center">
+            <a asp-controller="Home" asp-action="Index" class="btn eco-btn-primary px-5">
+                <i class="bi bi-arrow-left me-1"></i>Continue Shopping
+            </a>
+            <a asp-controller="Order" asp-action="Details" asp-route-id="@Model.Id" class="btn eco-btn-outline px-5">
+                View Order
+            </a>
+        </div>
+    </div>
+</div>

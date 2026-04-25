@@ -1,0 +1,58 @@
+@model ECOO.Application.ViewModels.ProductViewModel
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb eco-breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Shop</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index">Products</a></li>
+        <li class="breadcrumb-item active">@Model.Name</li>
+    </ol>
+</nav>
+
+<div class="row g-5 align-items-start">
+
+    <!-- Product image -->
+    <div class="col-md-5">
+        <div class="eco-detail-img-wrap">
+            <img src="@(string.IsNullOrEmpty(Model.ImageUrl) ? "/images/placeholder.jpg" : Model.ImageUrl)"
+                 alt="@Model.Name"
+                 class="img-fluid rounded-3 shadow"
+                 onerror="this.src='/images/placeholder.jpg'" />
+        </div>
+    </div>
+
+    <!-- Product info -->
+    <div class="col-md-7">
+        @if (!string.IsNullOrEmpty(Model.CategoryName))
+        {
+            <span class="badge eco-badge-category mb-3">@Model.CategoryName</span>
+        }
+
+        <h1 class="eco-detail-title">@Model.Name</h1>
+        <p class="eco-detail-price mb-4">$@Model.Price.ToString("F2")</p>
+        <p class="text-muted lh-lg">@Model.Description</p>
+
+        <hr class="my-4" />
+
+        <!-- Add to cart form -->
+        <form asp-controller="Cart" asp-action="Add" method="post" class="d-flex gap-3 align-items-center flex-wrap">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="productId" value="@Model.Id" />
+            <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+            <button type="submit" class="btn eco-btn-primary px-5 py-2">
+                <i class="bi bi-bag-plus me-2"></i>Add to Cart
+            </button>
+        </form>
+
+        <div class="mt-4 d-flex gap-2">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn eco-btn-outline btn-sm">
+                <i class="bi bi-pencil me-1"></i>Edit
+            </a>
+            <a asp-action="Index" class="btn eco-btn-outline btn-sm">
+                <i class="bi bi-arrow-left me-1"></i>Back to Products
+            </a>
+        </div>
+    </div>
+</div>

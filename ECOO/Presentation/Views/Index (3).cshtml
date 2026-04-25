@@ -1,0 +1,102 @@
+@model ECOO.Application.ViewModels.CartViewModel
+@{
+    ViewData["Title"] = "Your Cart";
+}
+
+<h2 class="eco-page-title mb-4"><i class="bi bi-bag me-2"></i>Your Cart</h2>
+
+@if (!Model.Items.Any())
+{
+    <div class="text-center py-5 text-muted">
+        <i class="bi bi-bag fs-1 d-block mb-3"></i>
+        <h5>Your cart is empty.</h5>
+        <a asp-controller="Home" asp-action="Index" class="btn eco-btn-primary mt-3">
+            <i class="bi bi-arrow-left me-1"></i>Continue Shopping
+        </a>
+    </div>
+}
+else
+{
+    <div class="row g-4">
+
+        <!-- Cart items -->
+        <div class="col-lg-8">
+            @foreach (var item in Model.Items)
+            {
+                <div class="eco-cart-row d-flex gap-3 align-items-center mb-3 p-3">
+                    <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "/images/placeholder.jpg" : item.ImageUrl)"
+                         alt="@item.Name"
+                         class="eco-cart-thumb rounded-2"
+                         onerror="this.src='/images/placeholder.jpg'" />
+
+                    <div class="flex-grow-1">
+                        <h6 class="mb-0">@item.Name</h6>
+                        <small class="text-muted">$@item.Price.ToString("F2") each</small>
+                    </div>
+
+                    <!-- Quantity updater -->
+                    <form asp-action="Update" method="post" class="d-flex align-items-center gap-2">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <input type="number" name="quantity" value="@item.Quantity"
+                               min="1" max="99"
+                               class="form-control eco-qty-input text-center"
+                               style="width:65px"
+                               onchange="this.form.submit()" />
+                    </form>
+
+                    <!-- Line total -->
+                    <div class="eco-price-sm text-end" style="min-width:70px">
+                        $@item.LineTotal.ToString("F2")
+                    </div>
+
+                    <!-- Remove -->
+                    <form asp-action="Remove" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <button type="submit" class="btn btn-sm eco-btn-danger" title="Remove">
+                            <i class="bi bi-x-lg"></i>
+                        </button>
+                    </form>
+                </div>
+            }
+
+            <!-- Clear cart -->
+            <form asp-action="Clear" method="post" class="mt-2">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-sm eco-btn-outline text-danger border-danger"
+                        onclick="return confirm('Clear your entire cart?')">
+                    <i class="bi bi-trash me-1"></i>Clear Cart
+                </button>
+            </form>
+        </div>
+
+        <!-- Order summary -->
+        <div class="col-lg-4">
+            <div class="eco-summary-card p-4">
+                <h5 class="mb-3">Order Summary</h5>
+
+                <div class="d-flex justify-content-between mb-2 text-muted small">
+                    <span>Items (@Model.ItemCount)</span>
+                    <span>$@Model.Total.ToString("F2")</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2 text-muted small">
+                    <span>Shipping</span>
+                    <span class="text-success">Free 🌱</span>
+                </div>
+                <hr />
+                <div class="d-flex justify-content-between fw-bold fs-5 mb-4">
+                    <span>Total</span>
+                    <span class="eco-price">$@Model.Total.ToString("F2")</span>
+                </div>
+
+                <a asp-controller="Order" asp-action="Checkout" class="btn eco-btn-primary w-100 py-2">
+                    <i class="bi bi-credit-card me-2"></i>Proceed to Checkout
+                </a>
+                <a asp-controller="Home" asp-action="Index" class="btn eco-btn-outline w-100 mt-2">
+                    <i class="bi bi-arrow-left me-1"></i>Continue Shopping
+                </a>
+            </div>
+        </div>
+    </div>
+}
