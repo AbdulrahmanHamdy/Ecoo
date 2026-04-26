@@ -30,10 +30,13 @@ public class CartService : ICartService
     public CartViewModel GetCart()
     {
         var json = Session.GetString(CartSessionKey);
-        if (string.IsNullOrEmpty(json))
-            return new CartViewModel();
 
-        return JsonConvert.DeserializeObject<CartViewModel>(json) ?? new CartViewModel();
+        if (string.IsNullOrEmpty(json))
+            return new CartViewModel { Items = new List<CartItemViewModel>() };
+
+        var cart = JsonConvert.DeserializeObject<CartViewModel>(json);
+
+        return cart ?? new CartViewModel { Items = new List<CartItemViewModel>() };
     }
 
     /// <inheritdoc/>

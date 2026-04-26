@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ECOO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6938c0a7c3b94ebd213ab69736fb418f77807cfc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1b83bbd35848e7f78774716a77cccad8a1956d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ECOO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ECOO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

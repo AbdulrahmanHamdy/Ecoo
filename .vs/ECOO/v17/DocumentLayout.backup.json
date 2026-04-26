@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\sowfetware\\Ecoo\\",
+  "WorkspaceRootPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|c:\\users\\rashad\\onedrive\\desktop\\ecco\\ecoo\\ecoo\\presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|c:\\users\\rashad\\onedrive\\desktop\\ecco\\ecoo\\ecoo\\presentation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|c:\\users\\rashad\\onedrive\\desktop\\ecco\\ecoo\\ecoo\\presentation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|c:\\users\\rashad\\onedrive\\desktop\\ecco\\ecoo\\ecoo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|c:\\users\\rashad\\onedrive\\desktop\\ecco\\ecoo\\ecoo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|c:\\users\\rashad\\onedrive\\desktop\\ecco\\ecoo\\ecoo\\presentation\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|c:\\users\\rashad\\onedrive\\desktop\\ecco\\ecoo\\ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +38,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ECOO\\Presentation\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA2wC4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:10:01.481Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-26T11:07:31.168Z",
+              "WhenOpened": "2026-04-26T16:03:06.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ECOO\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ECOO\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-26T16:01:29.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\Order.cs",
-              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "ECOO\\Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:23:57.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\Product.cs",
-              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "ECOO\\Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:23:37.911Z"
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ECOO\\Presentation\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:55:52.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\Category.cs",
-              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "ECOO\\Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:23:10.06Z"
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ECOO\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ECOO\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-26T15:56:31.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ECOO\\Presentation\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:45:01.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\ECOO\\Presentation\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "ECOO\\Presentation\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:38:06.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

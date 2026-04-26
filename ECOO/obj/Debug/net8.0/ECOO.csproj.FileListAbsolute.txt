@@ -290,3 +290,11 @@ F:\sowfetware\Ecoo\ECOO\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 F:\sowfetware\Ecoo\ECOO\obj\Debug\net8.0\ECOO.csproj.Up2Date
 F:\sowfetware\Ecoo\ECOO\obj\Debug\net8.0\ECOO.genruntimeconfig.cache
 F:\sowfetware\Ecoo\ECOO\obj\Debug\net8.0\ref\ECOO.dll
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\obj\Debug\net8.0\ECOO.RazorAssemblyInfo.cache
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\obj\Debug\net8.0\ECOO.RazorAssemblyInfo.cs
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\obj\Debug\net8.0\ECOO.sourcelink.json
+C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\bin\Debug\net8.0\wwwroot\images\placeholder.jpg
