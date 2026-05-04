@@ -50,7 +50,7 @@
       <AssetTraitValue></AssetTraitValue>
       <Fingerprint>zvm0ei53pf</Fingerprint>
       <Integrity>ISa+AAbOoqqOYiQhfOBfBn9/9AKoduL+BAKObSAEC4w=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\placeholder.jpg'))</OriginalItemSpec>
     </StaticWebAsset>

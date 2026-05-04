@@ -8,13 +8,13 @@
     var currentCat    = ViewBag.CategoryId as int?;
 }
 
-<!-- ── Hero banner ───────────────────────────────────────────────── -->
+
 <section class="eco-hero mb-5">
     <div class="eco-hero-inner text-center py-5 px-3">
         <h1 class="eco-hero-title">Shop with the Planet in Mind</h1>
         <p class="eco-hero-sub">Handpicked eco-friendly products — good for you, great for Earth.</p>
 
-        <!-- Search form -->
+        
         <form asp-controller="Home" asp-action="Index" method="get" class="mt-4 d-flex justify-content-center gap-2 flex-wrap">
             <input type="text" name="search" value="@currentSearch"
                    class="form-control eco-search-input"
@@ -33,7 +33,6 @@
     </div>
 </section>
 
-<!-- ── Category filter pills ─────────────────────────────────────── -->
 <div class="d-flex flex-wrap gap-2 mb-4 justify-content-center">
     <a asp-controller="Home" asp-action="Index"
        class="btn btn-sm @(currentCat == null && string.IsNullOrEmpty(currentSearch) ? "eco-pill-active" : "eco-pill")">
@@ -48,7 +47,7 @@
     }
 </div>
 
-<!-- ── Product grid ──────────────────────────────────────────────── -->
+
 @if (!Model.Any())
 {
     <div class="text-center py-5 text-muted">

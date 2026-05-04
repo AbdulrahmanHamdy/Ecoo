@@ -298,3 +298,4 @@ C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\obj\Debug\net8.0\ECOO.RazorAssem
 C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\obj\Debug\net8.0\ECOO.RazorAssemblyInfo.cs
 C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\obj\Debug\net8.0\ECOO.sourcelink.json
 C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\bin\Debug\net8.0\wwwroot\images\placeholder.jpg
+F:\sowfetware\Ecoo\ECOO\bin\Debug\net8.0\wwwroot\images\placeholder.jpg
