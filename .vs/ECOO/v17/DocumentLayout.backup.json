@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -30,8 +34,7 @@
               "RelativeToolTip": "testEcoo\\FakeSession .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T18:31:01.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T18:31:01.827Z"
             },
             {
               "$type": "Document",
@@ -39,16 +42,12 @@
               "Title": "CartServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\testEcoo\\CartServiceTests.cs",
               "RelativeDocumentMoniker": "testEcoo\\CartServiceTests.cs",
-              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\testEcoo\\CartServiceTests.cs*",
-              "RelativeToolTip": "testEcoo\\CartServiceTests.cs*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowF4AAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Ecco\\ECOO\\testEcoo\\CartServiceTests.cs",
+              "RelativeToolTip": "testEcoo\\CartServiceTests.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T18:26:45.153Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
