@@ -18,7 +18,7 @@
     <!-- Product image -->
     <div class="col-md-5">
         <div class="eco-detail-img-wrap">
-            <img src="@( "/images/placeholder.jpg")"
+            <img src="@( string.IsNullOrEmpty(Model.ImageUrl) ? "/images/placeholder.jpg" : Model.ImageUrl)"
                  alt="@Model.Name"
                  class="img-fluid rounded-3 shadow"
                  onerror="this.src='/images/placeholder.jpg'" />
