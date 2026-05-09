@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,24 +74,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "CartController.cs",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\CartController.cs",
               "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CartController.cs",
               "RelativeToolTip": "ECOO\\Presentation\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA2wC4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwC4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T13:10:01.481Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\CategoryController.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ECOO\\Presentation\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:43:08.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Order\\Checkout.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Order\\Checkout.cshtml",
@@ -95,12 +113,11 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Order\\Checkout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-04T08:38:47.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T08:38:47.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Confirmation.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Order\\Confirmation.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Order\\Confirmation.cshtml",
@@ -108,12 +125,11 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Order\\Confirmation.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-04T08:38:49.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T08:38:49.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Order\\Index.cshtml",
@@ -121,12 +137,11 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Order\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-04T08:38:42.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T08:38:42.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Product\\Create.cshtml",
@@ -134,12 +149,11 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-04T08:38:41.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T08:38:41.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Product\\Edit.cshtml",
@@ -147,12 +161,11 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-04T08:38:30.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T08:38:30.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Product\\Index.cshtml",
@@ -160,12 +173,11 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-04T08:38:26.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T08:38:26.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Product.cs",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\Product.cs",
@@ -173,12 +185,11 @@
               "RelativeToolTip": "ECOO\\Domain\\Entities\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:19:52.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T08:19:52.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "_ProductCard.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Shared\\_ProductCard.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Shared\\_ProductCard.cshtml",
@@ -196,14 +207,14 @@
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-26T16:03:06.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "site.js",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "ECOO\\wwwroot\\js\\site.js",
@@ -215,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\_ViewStart.cshtml",
@@ -228,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "site.css",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ECOO\\wwwroot\\css\\site.css",
@@ -240,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Home\\Index.cshtml",
@@ -248,12 +259,11 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-26T15:45:01.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T15:45:01.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "ECOO\\Presentation\\Views\\Product\\Details.cshtml",
@@ -261,8 +271,7 @@
               "RelativeToolTip": "ECOO\\Presentation\\Views\\Product\\Details.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-26T15:38:06.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T15:38:06.855Z"
             }
           ]
         }
