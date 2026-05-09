@@ -2,10 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ECOO.Application.ViewModels;
 
-/// <summary>
-/// ViewModel for creating and editing a category.
-/// Contains data annotations for server-side validation.
-/// </summary>
+
 public class CategoryViewModel
 {
     public int Id { get; set; }
