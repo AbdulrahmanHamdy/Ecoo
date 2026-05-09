@@ -5,14 +5,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ECOO.Infrastructure.Repositories;
 
-/// <summary>
-/// Concrete category repository.
-/// </summary>
+
 public class CategoryRepository : GenericRepository<Category>, ICategoryRepository
 {
     public CategoryRepository(AppDbContext context) : base(context) { }
 
-    /// <inheritdoc/>
+   
     public async Task<IEnumerable<Category>> GetAllOrderedAsync()
         => await _context.Categories
                          .AsNoTracking()
