@@ -5,10 +5,7 @@ using ECOO.Domain.Entities;
 
 namespace ECOO.Application.Services;
 
-/// <summary>
-/// Handles order placement and retrieval.
-/// Converts the session cart into persistent Order + OrderItem records.
-/// </summary>
+
 public class OrderService : IOrderService
 {
     private readonly IOrderRepository _orderRepo;
@@ -20,9 +17,7 @@ public class OrderService : IOrderService
         _cartService = cartService;
     }
 
-    // ── Commands ───────────────────────────────────────────────────
-
-    /// <inheritdoc/>
+   
     public async Task<int> PlaceOrderAsync(CheckoutViewModel model)
     {
         var cart = _cartService.GetCart();
@@ -30,7 +25,7 @@ public class OrderService : IOrderService
         if (!cart.Items.Any())
             throw new InvalidOperationException("Cannot place an order with an empty cart.");
 
-        // Build the Order entity from the checkout form data
+       
         var order = new Order
         {
             OrderDate       = DateTime.UtcNow,
@@ -42,35 +37,33 @@ public class OrderService : IOrderService
             {
                 ProductId = i.ProductId,
                 Quantity  = i.Quantity,
-                Price     = i.Price           // snapshot price at time of purchase
+                Price     = i.Price           
             }).ToList()
         };
 
         await _orderRepo.AddAsync(order);
 
-        // Clear the cart after successful order placement
+      
         _cartService.ClearCart();
 
         return order.Id;
     }
 
-    // ── Queries ────────────────────────────────────────────────────
-
-    /// <inheritdoc/>
+    
     public async Task<OrderViewModel?> GetOrderByIdAsync(int id)
     {
         var order = await _orderRepo.GetByIdWithItemsAsync(id);
         return order is null ? null : MapToViewModel(order);
     }
 
-    /// <inheritdoc/>
+  
     public async Task<IEnumerable<OrderViewModel>> GetAllOrdersAsync()
     {
         var orders = await _orderRepo.GetAllOrderedByDateAsync();
         return orders.Select(o => MapToViewModel(o));
     }
 
-    // ── Mapping helpers ────────────────────────────────────────────
+  
 
     private static OrderViewModel MapToViewModel(Order o) => new()
     {
