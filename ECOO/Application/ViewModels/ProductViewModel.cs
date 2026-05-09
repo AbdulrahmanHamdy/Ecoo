@@ -3,10 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ECOO.Application.ViewModels;
 
-/// <summary>
-/// ViewModel for creating, editing, and displaying a product.
-/// Includes a SelectList for the category drop-down.
-/// </summary>
+
 public class ProductViewModel
 {
     public int Id { get; set; }
