@@ -4,11 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ECOO.Infrastructure.Repositories;
 
-/// <summary>
-/// Concrete generic repository backed by Entity Framework Core.
-/// All operations use async/await to avoid blocking the thread pool.
-/// </summary>
-/// <typeparam name="T">Domain entity type.</typeparam>
+
 public class GenericRepository<T> : IGenericRepository<T> where T : class
 {
     protected readonly AppDbContext _context;
