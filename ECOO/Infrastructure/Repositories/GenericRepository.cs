@@ -16,29 +16,29 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         _dbSet   = context.Set<T>();
     }
 
-    /// <inheritdoc/>
+  
     public virtual async Task<IEnumerable<T>> GetAllAsync()
         => await _dbSet.AsNoTracking().ToListAsync();
 
-    /// <inheritdoc/>
+   
     public virtual async Task<T?> GetByIdAsync(int id)
         => await _dbSet.FindAsync(id);
 
-    /// <inheritdoc/>
+    
     public virtual async Task AddAsync(T entity)
     {
         await _dbSet.AddAsync(entity);
         await _context.SaveChangesAsync();
     }
 
-    /// <inheritdoc/>
+   
     public virtual async Task UpdateAsync(T entity)
     {
         _dbSet.Update(entity);
         await _context.SaveChangesAsync();
     }
 
-    /// <inheritdoc/>
+   
     public virtual async Task DeleteAsync(int id)
     {
         var entity = await GetByIdAsync(id);
