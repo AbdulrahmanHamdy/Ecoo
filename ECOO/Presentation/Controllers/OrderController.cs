@@ -4,9 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ECOO.Presentation.Controllers;
 
-/// <summary>
-/// Handles checkout flow and order confirmation.
-/// </summary>
+
 public class OrderController : Controller
 {
     private readonly IOrderService _orderService;
@@ -18,14 +16,11 @@ public class OrderController : Controller
         _cartService  = cartService;
     }
 
-    // ── Checkout ───────────────────────────────────────────────────
-
-    // GET /Order/Checkout
     public IActionResult Checkout()
     {
         var cart = _cartService.GetCart();
 
-        // Don't allow checkout with an empty cart
+        
         if (!cart.Items.Any())
         {
             TempData["Warning"] = "Your cart is empty. Add some products before checking out.";
@@ -36,12 +31,12 @@ public class OrderController : Controller
         return View(vm);
     }
 
-    // POST /Order/Checkout
+   
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Checkout(CheckoutViewModel model)
     {
-        // Re-attach the current cart (not bound from the form)
+        
         model.Cart = _cartService.GetCart();
 
         if (!model.Cart.Items.Any())
@@ -65,9 +60,7 @@ public class OrderController : Controller
         }
     }
 
-    // ── Confirmation ───────────────────────────────────────────────
-
-    // GET /Order/Confirmation/5
+  
     public async Task<IActionResult> Confirmation(int id)
     {
         var order = await _orderService.GetOrderByIdAsync(id);
@@ -75,13 +68,11 @@ public class OrderController : Controller
         return View(order);
     }
 
-    // ── Order history (admin-friendly list) ────────────────────────
-
-    // GET /Order
+  
     public async Task<IActionResult> Index()
         => View(await _orderService.GetAllOrdersAsync());
 
-    // GET /Order/Details/5
+   
     public async Task<IActionResult> Details(int id)
     {
         var order = await _orderService.GetOrderByIdAsync(id);

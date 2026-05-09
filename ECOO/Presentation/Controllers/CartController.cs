@@ -3,10 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ECOO.Presentation.Controllers;
 
-/// <summary>
-/// Manages the session-based shopping cart.
-/// All operations redirect back to either the cart page or the referring page.
-/// </summary>
 public class CartController : Controller
 {
     private readonly ICartService    _cartService;
@@ -18,11 +14,11 @@ public class CartController : Controller
         _productService = productService;
     }
 
-    // GET /Cart
+    
     public IActionResult Index()
         => View(_cartService.GetCart());
 
-    // POST /Cart/Add
+    
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Add(int productId, string? returnUrl)
@@ -33,14 +29,14 @@ public class CartController : Controller
         _cartService.AddToCart(product.Id, product.Name, product.Price, product.ImageUrl);
         TempData["Success"] = $"\"{product.Name}\" was added to your cart.";
 
-        // Redirect back to where the user came from (product listing / detail)
+        
         if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
             return Redirect(returnUrl);
 
         return RedirectToAction(nameof(Index));
     }
 
-    // POST /Cart/Update
+    
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult Update(int productId, int quantity)
@@ -49,7 +45,7 @@ public class CartController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // POST /Cart/Remove
+   
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult Remove(int productId)
@@ -59,7 +55,7 @@ public class CartController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // POST /Cart/Clear
+    
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult Clear()

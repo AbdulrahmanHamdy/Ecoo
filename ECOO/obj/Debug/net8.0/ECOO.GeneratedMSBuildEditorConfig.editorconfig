@@ -9,93 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ECOO
 build_property.RootNamespace = ECOO
-build_property.ProjectDir = C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO\
+build_property.ProjectDir = F:\sowfetware\Ecoo\ECOO\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Rashad\OneDrive\Desktop\Ecco\ECOO\ECOO
+build_property.MSBuildProjectDirectory = F:\sowfetware\Ecoo\ECOO
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Cart/Index.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXENhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Category/Create.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Category/Delete.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXENhdGVnb3J5XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Category/Edit.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXENhdGVnb3J5XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Category/Index.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Home/Index.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Order/Checkout.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE9yZGVyXENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Order/Confirmation.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Order/Confirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE9yZGVyXENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Order/Details.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE9yZGVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Order/Index.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE9yZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Product/Create.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFByb2R1Y3RcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Product/Delete.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFByb2R1Y3RcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Product/Details.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFByb2R1Y3RcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Product/Edit.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFByb2R1Y3RcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Product/Index.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFByb2R1Y3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Shared/_Layout.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Shared/_ProductCard.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Shared/_ProductCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFNoYXJlZFxfUHJvZHVjdENhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/Shared/_ViewImports.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/Shared/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFNoYXJlZFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rashad/OneDrive/Desktop/Ecco/ECOO/ECOO/Presentation/Views/_ViewStart.cshtml]
+[F:/sowfetware/Ecoo/ECOO/Presentation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

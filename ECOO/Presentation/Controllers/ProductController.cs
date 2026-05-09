@@ -5,9 +5,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ECOO.Presentation.Controllers;
 
-/// <summary>
-/// Full CRUD for products — list, detail, create, edit, delete.
-/// </summary>
 public class ProductController : Controller
 {
     private readonly IProductService  _productService;
@@ -19,18 +16,14 @@ public class ProductController : Controller
         _categoryService = categoryService;
     }
 
-    // ── List ───────────────────────────────────────────────────────
-
-    // GET /Product
+    
     public async Task<IActionResult> Index()
     {
         var products = await _productService.GetAllProductsWithCategoryAsync();
         return View(products);
     }
 
-    // ── Detail ─────────────────────────────────────────────────────
-
-    // GET /Product/Details/5
+   
     public async Task<IActionResult> Details(int id)
     {
         var product = await _productService.GetProductByIdWithCategoryAsync(id);
@@ -38,9 +31,7 @@ public class ProductController : Controller
         return View(product);
     }
 
-    // ── Create ─────────────────────────────────────────────────────
-
-    // GET /Product/Create
+  
     public async Task<IActionResult> Create()
     {
         var vm = new ProductViewModel
@@ -50,7 +41,6 @@ public class ProductController : Controller
         return View(vm);
     }
 
-    // POST /Product/Create
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(ProductViewModel model)
@@ -66,9 +56,7 @@ public class ProductController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // ── Edit ───────────────────────────────────────────────────────
-
-    // GET /Product/Edit/5
+   
     public async Task<IActionResult> Edit(int id)
     {
         var product = await _productService.GetProductByIdAsync(id);
@@ -78,7 +66,7 @@ public class ProductController : Controller
         return View(product);
     }
 
-    // POST /Product/Edit/5
+    
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, ProductViewModel model)
@@ -96,9 +84,6 @@ public class ProductController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // ── Delete ─────────────────────────────────────────────────────
-
-    // GET /Product/Delete/5
     public async Task<IActionResult> Delete(int id)
     {
         var product = await _productService.GetProductByIdWithCategoryAsync(id);
@@ -106,7 +91,7 @@ public class ProductController : Controller
         return View(product);
     }
 
-    // POST /Product/Delete/5
+    
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
@@ -116,9 +101,7 @@ public class ProductController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // ── Helpers ────────────────────────────────────────────────────
-
-    /// <summary>Builds the category SelectList for create/edit forms.</summary>
+    
     private async Task<SelectList> BuildCategorySelectListAsync(int selectedId = 0)
     {
         var categories = await _categoryService.GetAllCategoriesOrderedAsync();

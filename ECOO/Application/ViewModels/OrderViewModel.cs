@@ -1,6 +1,6 @@
 namespace ECOO.Application.ViewModels;
 
->
+
 public class OrderViewModel
 {
     public int Id { get; set; }

@@ -1,0 +1,564 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\sowfetware\\Ecoo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\migrations\\20260425164037_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\migrations\\20260425164037_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|f:\\sowfetware\\ecoo\\ecoo\\application\\interfaces\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347F8831-2A3E-4B63-A50E-49FC1E8987F9}|ECOO\\ECOO.csproj|solutionrelative:ecoo\\application\\interfaces\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "ECOO\\Presentation\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwGcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:59:29.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\OrderController.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "ECOO\\Presentation\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:59:11.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "ECOO\\Presentation\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:55.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\CategoryController.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "ECOO\\Presentation\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:39.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ECOO\\Presentation\\Controllers\\CartController.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Presentation\\Controllers\\CartController.cs*",
+              "RelativeToolTip": "ECOO\\Presentation\\Controllers\\CartController.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:20.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ECOO\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ECOO\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:09.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260425164037_Create.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Migrations\\20260425164037_Create.cs",
+              "RelativeDocumentMoniker": "ECOO\\Migrations\\20260425164037_Create.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Migrations\\20260425164037_Create.cs",
+              "RelativeToolTip": "ECOO\\Migrations\\20260425164037_Create.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:08.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ECOO\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ECOO\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:05.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "ECOO\\Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "ECOO\\Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:05.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "ECOO\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "ECOO\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:58:03.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext .cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Data\\AppDbContext .cs",
+              "RelativeDocumentMoniker": "ECOO\\Infrastructure\\Data\\AppDbContext .cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Infrastructure\\Data\\AppDbContext .cs",
+              "RelativeToolTip": "ECOO\\Infrastructure\\Data\\AppDbContext .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:59.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\Product.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "ECOO\\Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:57.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "ECOO\\Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:56.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\Order.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "ECOO\\Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:55.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "ECOO\\Domain\\Entities\\Category.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "ECOO\\Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:54.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "ECOO\\Application\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:52.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\ViewModels\\CheckoutViewModel.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeToolTip": "ECOO\\Application\\ViewModels\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:51.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "ECOO\\Application\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:49.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "ECOO\\Application\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:48.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Services\\ProductService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:47.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Services\\OrderService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:46.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Services\\CategoryService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:45.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Services\\CartService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Services\\CartService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Services\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:44.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Services\\IProductService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:43.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Services\\IOrderService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\IOrderService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:42.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Services\\ICategoryService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:42.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Services\\ICartService.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Services\\ICartService.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Services\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:41.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:39.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:38.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:38.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "ECOO\\Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:37.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "ECOO\\Application\\ViewModels\\OrderViewModel.cs",
+              "ToolTip": "F:\\sowfetware\\Ecoo\\ECOO\\Application\\ViewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "ECOO\\Application\\ViewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:57:13.912Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
