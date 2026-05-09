@@ -5,10 +5,7 @@ using ECOO.Domain.Entities;
 
 namespace ECOO.Application.Services;
 
-/// <summary>
-/// Handles all product-related business logic.
-/// Maps between domain entities and ViewModels manually (no AutoMapper).
-/// </summary>
+
 public class ProductService : IProductService
 {
     private readonly IProductRepository _productRepo;
@@ -18,7 +15,7 @@ public class ProductService : IProductService
         _productRepo = productRepo;
     }
 
-    // ── Queries ────────────────────────────────────────────────────
+    
 
     public async Task<IEnumerable<ProductViewModel>> GetAllProductsAsync()
     {
@@ -59,8 +56,7 @@ public class ProductService : IProductService
         return products.Select(MapToViewModel);
     }
 
-    // ── Commands ───────────────────────────────────────────────────
-
+   
     public async Task CreateProductAsync(ProductViewModel model)
     {
         var entity = MapToEntity(model);
@@ -76,9 +72,7 @@ public class ProductService : IProductService
     public async Task DeleteProductAsync(int id)
         => await _productRepo.DeleteAsync(id);
 
-    // ── Mapping helpers ────────────────────────────────────────────
-
-    /// <summary>Converts a Product entity to a ProductViewModel.</summary>
+   
     private static ProductViewModel MapToViewModel(Product p) => new()
     {
         Id           = p.Id,
@@ -90,7 +84,7 @@ public class ProductService : IProductService
         CategoryName = p.Category?.Name
     };
 
-    /// <summary>Converts a ProductViewModel to a Product entity.</summary>
+   
     private static Product MapToEntity(ProductViewModel vm) => new()
     {
         Id          = vm.Id,
