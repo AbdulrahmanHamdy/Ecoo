@@ -5,18 +5,14 @@ using Newtonsoft.Json;
 
 namespace ECOO.Application.Services;
 
-/// <summary>
-/// Session-based cart service.
-/// The entire cart is serialised as JSON and stored under a single session key.
-/// No database is touched — cart state lives only in the HTTP session.
-/// </summary>
+
 public class CartService : ICartService
 {
     private const string CartSessionKey = "ECOO_Cart";
 
     private readonly IHttpContextAccessor _httpContextAccessor;
 
-    // Convenience property — throws if context is unavailable (should never happen in MVC)
+    
     private ISession Session => _httpContextAccessor.HttpContext!.Session;
 
     public CartService(IHttpContextAccessor httpContextAccessor)
@@ -24,9 +20,7 @@ public class CartService : ICartService
         _httpContextAccessor = httpContextAccessor;
     }
 
-    // ── Read ───────────────────────────────────────────────────────
-
-    /// <inheritdoc/>
+  
     public CartViewModel GetCart()
     {
         var json = Session.GetString(CartSessionKey);
@@ -39,13 +33,11 @@ public class CartService : ICartService
         return cart ?? new CartViewModel { Items = new List<CartItemViewModel>() };
     }
 
-    /// <inheritdoc/>
+    
     public int GetCartItemCount()
         => GetCart().ItemCount;
 
-    // ── Write ──────────────────────────────────────────────────────
-
-    /// <inheritdoc/>
+   
     public void AddToCart(int productId, string name, decimal price, string imageUrl)
     {
         var cart = GetCart();
@@ -70,7 +62,7 @@ public class CartService : ICartService
         SaveCart(cart);
     }
 
-    /// <inheritdoc/>
+   
     public void UpdateQuantity(int productId, int quantity)
     {
         var cart = GetCart();
@@ -86,7 +78,7 @@ public class CartService : ICartService
         SaveCart(cart);
     }
 
-    /// <inheritdoc/>
+    
     public void RemoveFromCart(int productId)
     {
         var cart = GetCart();
@@ -98,11 +90,11 @@ public class CartService : ICartService
         }
     }
 
-    /// <inheritdoc/>
+    
     public void ClearCart()
         => Session.Remove(CartSessionKey);
 
-    // ── Private helpers ────────────────────────────────────────────
+   
 
     private void SaveCart(CartViewModel cart)
         => Session.SetString(CartSessionKey, JsonConvert.SerializeObject(cart));
