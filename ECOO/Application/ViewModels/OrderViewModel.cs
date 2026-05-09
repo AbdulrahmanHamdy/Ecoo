@@ -1,8 +1,6 @@
 namespace ECOO.Application.ViewModels;
 
-/// <summary>
-/// ViewModel for displaying a completed order (confirmation / history).
-/// </summary>
+>
 public class OrderViewModel
 {
     public int Id { get; set; }
@@ -14,9 +12,7 @@ public class OrderViewModel
     public List<OrderItemViewModel> Items { get; set; } = new();
 }
 
-/// <summary>
-/// ViewModel for a single line item in an order detail view.
-/// </summary>
+
 public class OrderItemViewModel
 {
     public int ProductId { get; set; }
