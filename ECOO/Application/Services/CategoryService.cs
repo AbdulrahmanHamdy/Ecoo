@@ -5,9 +5,7 @@ using ECOO.Domain.Entities;
 
 namespace ECOO.Application.Services;
 
-/// <summary>
-/// Handles all category-related business logic and entity↔ViewModel mapping.
-/// </summary>
+
 public class CategoryService : ICategoryService
 {
     private readonly ICategoryRepository _categoryRepo;
@@ -44,7 +42,7 @@ public class CategoryService : ICategoryService
     public async Task DeleteCategoryAsync(int id)
         => await _categoryRepo.DeleteAsync(id);
 
-    // ── Mapping helpers ────────────────────────────────────────────
+    
 
     private static CategoryViewModel MapToViewModel(Category c) => new()
     {
