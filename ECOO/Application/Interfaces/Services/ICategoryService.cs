@@ -2,9 +2,7 @@ using ECOO.Application.ViewModels;
 
 namespace ECOO.Application.Interfaces.Services;
 
-/// <summary>
-/// Business-logic contract for category operations.
-/// </summary>
+
 public interface ICategoryService
 {
     Task<IEnumerable<CategoryViewModel>> GetAllCategoriesAsync();
